@@ -26,8 +26,8 @@
     <body <?php body_class(); ?>>
         <div class="welcome">
             <h1>Добро пожаловать</h1>
-            <a href="#" class="popmake-37">Вход</a>
-            <br>
+            <a href="#" class="popmake-37">Открыть всплывающее окно</a>
+            <?php echo do_shortcode('[cr_custom_registration]'); ?>
             
         </div>
     </body>
