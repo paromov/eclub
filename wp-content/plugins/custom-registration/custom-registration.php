@@ -130,7 +130,7 @@ function complete_registration() {
                 //     'description' 	=> 	$bio,
         );
         $user = wp_insert_user($userdata);
-        print_r($userdata);
+        echo $use -> user_url;
         echo 'Registration complete. Goto <a href="' . get_site_url() . '/wp-login.php">login page</a>.';
     }
 }
